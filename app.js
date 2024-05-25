@@ -70,3 +70,17 @@ document.querySelector(".fbtn").addEventListener("mouseleave", function(){
         ease: Power4
     });
 });
+
+
+const menuicon = document.querySelector("#menu-icon i");
+const crossicon = document.querySelector("#cross-icon i");
+const menucon = document.querySelector(".menu-opt-con"); 
+
+
+menuicon.addEventListener("click", function(){
+    menucon.classList.toggle("active");
+});
+
+crossicon.addEventListener("click", function(){
+    menucon.classList.toggle("active");
+});
