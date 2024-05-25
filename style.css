@@ -525,7 +525,15 @@ nav .n-left ul{
         font-size: 25px;
         cursor: pointer;
         font-weight: 700;
+        opacity: .7;
+        transition: all .2s ease-in;
     }
+
+    #menu-icon i:hover{
+        opacity: 1;
+    }
+
+
 
 
     .menu-opt-con{
@@ -536,7 +544,7 @@ nav .n-left ul{
         height: 100%;
         background-color: #00000042;
         transition: all .5s ease-in-out;
-      
+        z-index: 10;
     }
 
     .active{
@@ -594,6 +602,369 @@ nav .n-left ul{
     #cross-icon i:hover{
         opacity: 1;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #homepagemaincon{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20vw;
+        /* background-color: red; */
+        margin-top: 20vw;
+    }
+
+
+
+    #firstimgcon{
+        width: 80%;
+        height: 70vh;
+        position: relative;
+    }
+
+    #firstimgcon img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #firstimgcon .upper-h1{
+        position: absolute;
+        top: -10%;
+        left: -12%;
+    }
+
+    #firstimgcon .upper-h1 h1{
+        letter-spacing: -.1vw;
+        line-height: .96;
+    }
+
+
+    #firstimgcon .lower-p{
+        position: absolute;
+        bottom: -18%;
+        left: 0%;
+    }
+
+    #firstimgcon .lower-p p{
+        width: 60%;
+        line-height: 1;
+        letter-spacing: -.1vw;
+        opacity: .7;
+        font-size: 3.8vw;
+    }
+
+
+    #secondcon{
+      width: 100%;
+      height: 50vh; 
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+
+    #smallimgcon{
+        width: 50%;
+        height: 30vh;
+        padding: 4vw 5vw;
+        position: relative;
+    }
+
+    #smallimgcon img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #smallimgcon .text-con{
+        position: absolute;
+        top: -45%;
+        left: 12%;
+    }
+
+    #smallimgcon .text-con h2{
+        letter-spacing: -.1vw;
+        font-size: 3.4vw;
+        line-height: 1;
+    }
+
+    #smallimgcon .text-con h5{
+        letter-spacing: -.1vw;
+        font-size: 3vw;
+        line-height: 1;
+    }
+
+    #smallimgcon .text-con p{
+        letter-spacing: -.1vw;
+        font-size: 2.9vw;
+        line-height: 1;
+        width: 50%;
+        margin-top: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* page2 media css start */
+
+    #page2{
+        width: 100%;
+        height: 50vh;
+        margin-top: 60vh;
+        padding: 2vw 6vw;
+    }
+
+    #page2 h2{
+        font-size: 6vw;
+        text-transform: uppercase;
+        opacity: .7;
+    }
+
+    #page2 p{
+        text-align: right;
+        line-height: 1;
+        margin-top: 20px;
+        letter-spacing: -.1vw;
+        font-size: 5vw;
+        padding-left: 3vw;
+    }
+
+    #page2 p span{
+        display: inline-block;
+        background-color: red;
+        border-radius: 100px;
+        margin: 0 10px;
+        margin-bottom: -1vw;
+    }
+    
+
+    #onespanmedia{
+        width: 10vw;
+        height: 7vw;
+        background-image: url("./assets/bluegirl.jpg");
+        background-position: 0 60%;
+        background-size: cover;
+    }
+
+    #twospanmedia{
+        width: 12vw;
+        height: 6vw;
+        background-image: url("./assets/grass.jpg");
+        background-position: 0 60%;
+        background-size: cover;
+    }
+
+    #threespanmedia{
+        background-image: url("./assets/shaljam.jpg");
+        background-position: 0 50%;
+        background-size: cover;
+        width: 13vw;
+        height: 7vw;
+    }
+
+    /* page2 media css end */
+
+
+
+
+
+
+
+
+
+
+    /* page3 media css start */
+
+    #page3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2vw 8vw;
+        gap: 20vw;
+    }
+
+    #piconecon{
+        width: 100%;
+        height: 60vh;
+    }
+
+    #piconecon h3{
+        font-size: 5vw;
+    }
+
+    #piconecon p{
+        font-size: 3vw;
+        width: 40%;
+    }
+
+    #piconecon .img-wrapper{
+        width: 60%;
+        height: 80%;
+    }
+
+    #piconecon .img-wrapper img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    #pictwocon{
+        width: 100%;
+    }
+
+    #pictwocon .img-wrapper{
+        width: 100%;
+        height: 80vh;
+    }
+
+
+    #pictwocon h3{
+        font-size: 5vw;
+    }
+
+    #pictwocon p{
+        font-size: 3vw;
+        width: 80%;
+    }
+
+
+
+
+
+    /* page3 media css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*page4 media css start  */
+    
+    #page4{
+        width: 100%;
+        height: 100vh;
+        /* background-color: #000; */
+        margin-top: 70vh;
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    .banner-img-con{
+        width: 80%;
+    }
+
+    .text-con-sec4{
+        padding: 0 8vw;
+    }
+
+    .text-con-sec4 h2{
+        font-size: 6vw;
+    }
+
+    .text-con-sec4 p{
+        font-size: 3vw;
+        line-height: 1;
+    }
+
+
+
+
+
+    /* page4 media css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer media css start */
+
+    .footer{
+        width: 100%;
+        height: 100vh;
+        /* background-color: #000; */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .footer video{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(2.8);
+    }
+
+    .footer .text-con-footer{
+        width: 60%;
+        height: 20vh;
+    }
+
+    .text-con-footer h2{
+        font-size: 6vw;
+        font-weight: 650;
+    }
+
+    .text-con-footer .fbtn{
+        font-size: 3vw;
+        padding: 2vw 4vw;
+    }
+
+
+    #vedio{
+        opacity: 0;
+    }
+
+
+    /* footer medai css end */
 }
 
 /* media css end */

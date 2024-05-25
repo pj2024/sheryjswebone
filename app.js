@@ -3,6 +3,11 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
+const scroll2 = new LocomotiveScroll({
+    el: document.querySelector('#media'),
+    smooth: true
+});
+
 
 // gsap animations
 gsap.from(".nlink", {
@@ -71,6 +76,22 @@ document.querySelector(".fbtn").addEventListener("mouseleave", function(){
     });
 });
 
+
+document.querySelector("#fbtn").addEventListener("mouseover", function(){
+    gsap.to("#footer video", {
+        opacity:1,
+        duration:1,
+        ease: Power4
+    });
+});
+
+document.querySelector("#fbtn").addEventListener("mouseleave", function(){
+    gsap.to("#footer video", {
+        opacity:0,
+        duration:1,
+        ease: Power4
+    });
+});
 
 const menuicon = document.querySelector("#menu-icon i");
 const crossicon = document.querySelector("#cross-icon i");
