@@ -509,9 +509,10 @@ nav .n-left ul{
 
     #homepage{
         width: 100%;
-        height: 100vh;
+        height: 160vh;
         padding: 4vw 8vw;
         position: relative;
+        /* background-color: aqua; */
     }
 
 
@@ -734,7 +735,7 @@ nav .n-left ul{
     #page2{
         width: 100%;
         height: 50vh;
-        margin-top: 60vh;
+        /* margin-top: 60vh; */
         padding: 2vw 6vw;
     }
 
@@ -803,10 +804,11 @@ nav .n-left ul{
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        /* align-items: center;
+        justify-content: center; */
         padding: 2vw 8vw;
         gap: 20vw;
+        height: 165vh;
     }
 
     #piconecon{
@@ -883,10 +885,10 @@ nav .n-left ul{
         width: 100%;
         height: 100vh;
         /* background-color: #000; */
-        margin-top: 70vh;
         display: flex;
         flex-direction: column;
         gap: 5vw;
+        margin-top: 20px;
     }
 
     .banner-img-con{
